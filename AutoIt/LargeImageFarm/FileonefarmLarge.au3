@@ -1,0 +1,7 @@
+WinWait("Open")
+WinActivate("Open")
+ControlFocus("Open","","Edit1")
+Sleep(17000)
+ControlSetText("Open","","Edit1","C:\Users\riti raj\Desktop\AutoIt\LargeImageFarm\image2.jpg")
+ControlClick("Open","","Button1")
+Sleep(16000)

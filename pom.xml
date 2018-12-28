@@ -1,0 +1,277 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Gibsons_Connect_Automation</groupId>
+  <artifactId>Gibsons_Connect</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Gibsons_Connect</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+			<scope>compile</scope>
+		</dependency>
+<dependency>
+    <groupId>xml-apis</groupId>
+    <artifactId>xml-apis</artifactId>
+    <version>1.4.01</version>
+</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+
+
+
+
+
+
+
+
+   
+
+
+
+<dependency>
+    <groupId>net.sourceforge.cobertura</groupId>
+    <artifactId>cobertura</artifactId>
+    <version>2.1.1</version>
+    <scope>test</scope>
+    <!-- -->
+</dependency>
+
+
+
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>2.4.0</version>
+    <!-- -->
+</dependency>
+
+
+
+
+
+<dependency>
+    <groupId>net.sourceforge.cobertura</groupId>
+    <artifactId>cobertura</artifactId>
+    <version>1.9.4.1</version>
+    <scope>test</scope>
+    <!-- -->
+</dependency>
+
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>2.4.0</version>
+    <!-- -->
+</dependency>
+
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>2.4.0</version>
+    <!-- -->
+</dependency>
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>2.4.0</version>
+    <scope>test</scope>
+    <!-- -->
+</dependency>
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
+    <!-- -->
+</dependency>
+
+
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>4.0.0</version>
+    <!-- -->
+</dependency>
+
+
+
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit-dep</artifactId>
+    <version>4.10</version>
+    <scope>test</scope>
+    <!-- -->
+</dependency>
+
+
+
+
+
+<dependency>
+    <groupId>com.vimalselvam</groupId>
+    <artifactId>cucumber-extentsreport</artifactId>
+    <version>3.0.2</version>
+   </dependency>
+
+    <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.2</version>
+   </dependency>
+
+
+
+<dependency>
+    <groupId>ru.yandex.qatools.ashot</groupId>
+    <artifactId>ashot</artifactId>
+    <version>1.5.3</version>
+</dependency>
+
+	
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>	
+	</dependencies>
+	
+	
+	<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.21.0</version>
+           <configuration>
+          <includes>
+    <include>LogIn_Test_Script.java</include>    
+    <include>HomePage_TestScript.java</include>
+	<include>Customers_TestScripts.java</include>
+	<include>Customer_AddFarm_OtherLocation_TestScript.java</include>
+	<include>GroundSpreadOrder_Test_Script.java</include> 
+	<include>LogisticsOrder_Test_Script.java</include>
+	<include>DarrimanLimeOrder_Test_Script.java</include>
+	<include>MaryvaleLimeOrder_Test_Script.java</include>
+	<include>Logistics_Grid_Test_Script.java</include>
+	<include>Bookings_Test_Script.java</include>
+	<include>Employee_Calender_Test_Script.java</include>
+	<include>Quotes_DarrimaLimeOrder_Test_Script.java</include>
+	<include>Quotes_GroundspreadOrder_Test_Script.java</include>
+	<include>Quotes_LogiscticsOrder_Test_Script.java</include>
+	<include>Quotes_MaryvaleLime_Test_Script.java</include>
+	<include>Quotes_SalesLog_Test_Scripts.java</include>
+	<include>LogIn_Kendra_Test_Script.java</include>
+	<include>CalenderAssignGroundspreadOrder_TestScript.java</include>  
+          </includes>
+           </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+	
+</project>

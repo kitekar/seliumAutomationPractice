@@ -1,0 +1,8 @@
+WinWait("Open")
+WinActivate("Open")
+ControlFocus("Open","","Edit1")
+Sleep(8000)
+ControlSetText("Open","","Edit1","C:\Users\riti raj\Desktop\AutoIt\OneFarm\download2.jpg")
+Sleep(8000)
+ControlClick("Open","","Button1")
+Sleep(10000)
