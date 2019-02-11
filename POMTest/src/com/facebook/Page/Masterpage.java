@@ -9,7 +9,7 @@ public class Masterpage {
 	
 
 	
-	public Masterpage()
+	public Masterpage() //Constructor
 	{
 		WebDriver driver= new FirefoxDriver();
 		driver.get("https://www.facebook.com/");

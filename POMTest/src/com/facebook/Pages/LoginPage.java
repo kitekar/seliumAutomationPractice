@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import com.facebook.Page.Masterpage;
 
 public class LoginPage extends Masterpage {
-	//login, signup, create page, change language, forget password
+	//login, signup, create page, change language, forget password,Validation on login page.
 	
 	
 	WebDriver driver;
