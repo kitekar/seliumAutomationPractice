@@ -12,7 +12,6 @@ public class LoginPage extends Masterpage {
 	
 	WebDriver driver;
 	
-	
 	public void doLogin()
 	{
 	try{
