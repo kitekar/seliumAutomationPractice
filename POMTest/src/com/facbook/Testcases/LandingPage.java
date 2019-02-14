@@ -11,7 +11,7 @@ public class LandingPage extends Masterpage {
 	//like status, comment, search, find a friend, add story
 	
 	WebDriver driver = new FirefoxDriver();
-	public LandingPage()
+	public LandingPage() throws IOException
 	{
 		super();
 	}
