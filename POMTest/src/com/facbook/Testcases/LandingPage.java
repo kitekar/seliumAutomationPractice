@@ -13,9 +13,7 @@ public class LandingPage extends Masterpage {
 	WebDriver driver = new FirefoxDriver();
 	public LandingPage()
 	{
-		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		super();
 	}
 	public void likestatus()
 	{

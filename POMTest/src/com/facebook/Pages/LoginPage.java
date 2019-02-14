@@ -2,29 +2,32 @@ package com.facebook.Pages;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.facebook.Page.Masterpage;
 
 public class LoginPage extends Masterpage {
-	//login, signup, create page, chagne language, forget password
+	//login, signup, create page, change language, forget password
 	
 		WebDriver driver = new FirefoxDriver();
+		
 		public LoginPage()
 		{
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com");
 		}
-		public void doLogin()
+		public boolean doLogin()
 		{
 			//username
-			driver.findElement(By.xpath("//input[@id='email']")).sendKeys("seleniumforsure@gmail.com");
+			sendKeys("EmailOrPhone_txtBox","seleniumforsure@gmail.com");
 			//password
-			driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("Password_123");
+			sendKeys("Password_txtBox","Password_123");
+			
 			//click on login button
+			click("Login_Btn");
+			return (isLinkPresent("Home_Link"));
 			
 		}
 		
