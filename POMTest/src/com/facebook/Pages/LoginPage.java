@@ -1,6 +1,6 @@
 package com.facebook.Pages;
 
-import java.util.concurrent.TimeUnit;
+import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,9 +14,7 @@ public class LoginPage extends Masterpage {
 		
 		public LoginPage() throws IOException
 		{
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.get("https://www.facebook.com");
+		super();
 		}
 		public boolean doLogin()
 		{

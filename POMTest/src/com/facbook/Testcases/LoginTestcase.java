@@ -11,10 +11,11 @@ public class LoginTestcase {
 	{
 	
 		if(ExcelReadingUtility.isTestRunnable("LoginTestCase"))
+		{
 		LoginPage lp= new LoginPage();
 		Assert.assetTrue(lp.doLogin();
 		
-		
+		}
 		
 	}
 
